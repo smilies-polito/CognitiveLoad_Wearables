@@ -43,7 +43,7 @@ Specifically, the repository provides:
 The experiment consisted of alternating relaxation and cognitive workload periods while physiological signals were continuously recorded. Participants first completed a resting baseline, followed by a **Paced Visual Serial Addition Test (PVSAT)**, a second resting period, and finally an **Italian Grammar Task**. After each cognitive task, participants completed the NASA Task Load Index (NASA-TLX) questionnaire to assess perceived workload. The protocol was administered through a Psychopy custom framework, handling durations and timestamps.
 
 <p align="center">
-  <img src="protocol/protocol.pdf" alt="Experimental protocol" width="900"/>
+  <img src="protocol/ExpProtNew.pdf" alt="Experimental protocol" width="900"/>
 </p>
 
 # Cognitive Tasks
