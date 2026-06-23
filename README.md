@@ -1,10 +1,8 @@
 # Cognitive Load Wearable Dataset
 
-**📦 Zenodo Dataset:** [Zenodo_CognitiveLoad](10.5281/zenodo.20815029)
+**📦 Zenodo Dataset:** [Zenodo_CognitiveLoad](https://doi.org/10.5281/zenodo.20815030)
 
-**📄 Associated Article:** ```markdown
-0Coletta A., Circhetta M., Calderisi S., Di Biase A., Masi G., Ferraris C., and Olmo G. *Wearable Monitoring of Cognitive Load: A Comparative Sensor Study*. Accepted for presentation at the **EAI PervasiveHealth Conference 2026**. DOI and publication details will be added upon release.
-```
+**📄 Associated Article:** Coletta A., Circhetta M., Calderisi S., Di Biase A., Masi G., Ferraris C., and Olmo G. *Wearable Monitoring of Cognitive Load: A Comparative Sensor Study*. Accepted for presentation at the **EAI PervasiveHealth Conference 2026**. DOI and publication details will be added upon release.
 
 ---
 
