@@ -81,7 +81,7 @@ The `S2_psychopy_ts.xlsx` file contains Unix timestamps (in microseconds) togeth
 | `timestamp_relax2_start` / `relax2_start`   | Beginning of the second resting period.                     |
 | `timestamp_relax2_end` / `relax2_end`       | End of the second resting period.                           |
 | `timestamp_start_grammar` / `start_grammar` | Beginning of the grammar task.                              |
-| `timestamp_start_beep` / `start_beep`       | Timestamp of the auditory cue used during the grammar task. |
+| `timestamp_start_beep` / `start_beep`       | Ignore this.                                                |
 | `timestamp_end_grammar` / `end_grammar`     | End of the grammar task.                                    |
 | `timestamp_end_exp` / `end_exp`             | End of the experimental session.                            |
 
