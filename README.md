@@ -29,12 +29,13 @@ Specifically, the repository provides:
 │   └── demographics.xlsx
 ├── example_data/
 │   └── S2/
-│       ├── S2_polar.csv
+│       ├── S2_polar.txt
 │       ├── S2_shimmer.csv
 │       ├── S2_empatica.json
 │       └── S2_psychopy_ts.xlsx
 ├── synchronization/
-│   ├── sync.py
+│   ├── sync.ipynb
+|   └── DEVICE_OUTPUT_FILES_INFOS.md
 └── LICENSE
 ```
 
@@ -58,11 +59,11 @@ Participants corrected grammatically incorrect Italian sentences by typing the r
 
 # Physiological Signals
 
-| Device               | Signals                 | Sampling Rate   | Example File        | Timestamp Format |
-|----------------------|-------------------------|-----------------|---------------------|------------------|
-| Polar H10            | ECG                     | 130 Hz          | `S2_polar.csv`      | Phone local time (`YYYY-MM-DDTHH:MM:SS.sss`), Europe/Rome timezone |
-| Shimmer3 GSR+        | EDA, PPG, Accelerometer | 128 Hz          | `S2_shimmer.csv`    | Unix timestamp in (ms) |
-| Empatica EmbracePlus | EDA, BVP                | 4 Hz, 64 Hz     | `S2_empatica.json`  | Unix timestamp in (µs) |
+| Device               | Signals                                   | Sampling Rate      | Example File        | Timestamp Format |
+|----------------------|-------------------------------------------|--------------------|---------------------|------------------|
+| Polar H10            | ECG                                       | 130 Hz             | `S2_polar.txt`      | Phone local time (`YYYY-MM-DDTHH:MM:SS.sss`), Europe/Rome timezone |
+| Shimmer3 GSR+        | EDA, PPG, Accelerometer, Gyroscope, Magnetometer | 128 Hz         | `S2_shimmer.csv`    | Unix timestamp in (ms) |
+| Empatica EmbracePlus | EDA, PPG, Accelerometer                   | 4 Hz, 64 Hz, 64 Hz | `S2_empatica.json`  | Unix timestamp in (µs) |
 
 
 # PsychoPy Timestamp File
@@ -86,3 +87,5 @@ The `S2_psychopy_ts.xlsx` file contains Unix timestamps (in microseconds) togeth
 | `timestamp_end_exp` / `end_exp`             | End of the experimental session.                            |
 
 These timestamps serve as reference markers for synchronizing data streams acquired from the Polar, Shimmer, and Empatica devices.
+
+*Note on acronyms:* PPG = photoplethysmography, the optical sensing modality used to record the signal; BVP = blood volume pulse, the physiological signal derived from PPG and used as a synonym in this repository; EDA = electrodermal activity; ECG = electrocardiogram; PVSAT = Paced Visual Serial Addition Test; NASA-TLX = NASA Task Load Index.
